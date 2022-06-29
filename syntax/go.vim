@@ -9,7 +9,6 @@ syntax keyword GoBlankIdentifier        _
 syntax keyword GoBoolean                true false nil
 syntax match   GoComment                /\/\/.*\|\/\*.*\*\//
 syntax match   GoString                 /\".*\"\|\'.*\'/
-syntax match   GoFunction               /\w\+(/
 syntax match   GoNumber                 /\<0[oO]\=\o\+[Ll]\=\>/
 syntax match   GoNumber                 /\<0[xX]\x\+[Ll]\=\>/
 syntax match   GoNumber                 /\<0[bB][01]\+[Ll]\=\>/
@@ -25,7 +24,6 @@ highlight def link   GoType             Type
 highlight def link   GoBlankIdentifier  Special
 highlight def link   GoComment          Comment
 highlight def link   GoString           String
-highlight def link   GoFunction         Function
 highlight def link   GoNumber           Number
 highlight def link   GoBoolean          Boolean
 
